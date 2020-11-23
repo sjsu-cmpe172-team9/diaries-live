@@ -1,10 +1,10 @@
-<h3>Edit Story</h3>
+<h3>Update your story here</h3>
 <div class="row">
     <form action="/stories/{{story._id}}" method="POST" class="col s12">
         <input type="hidden" name="_method" value="PUT">
-        <div class="row" style="color: white;">
+        <div class="row">
             <div class="input-field">
-                <input type="text" id="title" name="title" value="{{story.title}}">
+                <input type="text" id="title" name="title" value="{{story.title}}" style="color: white;">
                 <label for="title">Title</label>
             </div>
         </div>
@@ -23,7 +23,6 @@
 
         <div class="row">
             <div class="input-field">
-                <h5>Update your story:</h5>
                 <textarea id="body" name="body">{{story.body}}</textarea>
             </div>
         </div>
