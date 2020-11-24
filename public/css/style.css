@@ -19,6 +19,12 @@ body {
   color: white;
 }
 
+h2,
+h3,
+h5 {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .login-container {
   width: 400px;
   margin-top: 50px;
@@ -43,6 +49,7 @@ table a {
 }
 
 .gradient-text {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   /* Fallback: Set a background color. */
   background-color: #ca4246;
 
