@@ -25,11 +25,20 @@ User are able to create a new Dairy entry:
 Published Entry:
 ![](images/5_publishedEntry.png)
 
-User can make Diary entry public or private to their choice:
+This is what the dashboard will look like with more entries the user can make Diary entry public or private to their choice:
 ![](images/6_pubPrivEntry.png)
 
-User is able to see all public Diary entry
+They may also be able to edit or delete their Diary entries as they see fit:
+![](images/7_editEntry.png)
+
+All users are able to see all public Diary entry:
 ![](images/4_allPublicEntry.png)
+
+As well as view other Diary entries written by that user so long as they are public:
+![](images/8_otherEntry.png)
+
+and finally there is a side bar menu in which users are able to nagvigate through pages and logout from Dairy Live:
+![](images/9_siteMenu.png)
 
 ### Folder structure:
 
@@ -49,16 +58,20 @@ User is able to see all public Diary entry
 
 ### System, Sequence, Interaction, and Database Schema Diagram
 -System Diagram
+
 ![](images/systemDiagram.png)
 
 -Sequence Diagrams
+
 ![](images/sequence_login.png)
 ![](images/sequence_dashboard.png)
 
 -Interaction
+
 ![](images/interactionDiagram.png)
 
 -Database Schema
-![](images/schema_storyUser.png)
+
 ![](images/schema_relation.png)
+![](images/schema_storyUser.png)
 
