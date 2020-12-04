@@ -79,4 +79,4 @@ Dashboard
           Schema Relation
 
 ![](images/schema_storyUser.png)
-          Story Schema          User Schema
+Schema Database
