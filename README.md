@@ -63,9 +63,11 @@ and finally there is a side bar menu in which users are able to nagvigate throug
 
 -Sequence Diagrams
 
+Login
 ![](images/sequence_login.png)
+
+Dashboard
 ![](images/sequence_dashboard.png)
-          Sequence Diagram for Login                      Sequence Diagram for Dashboard
 
 -Interaction
 
