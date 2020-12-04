@@ -69,11 +69,11 @@ Login
 ![](images/sequence_dashboard.png)
 Dashboard
 
--Interaction
+-Interaction Diagram
 
 ![](images/interactionDiagram.png)
 
--Database Schema
+-Database Schema and Schema Relation Diagram
 
 ![](images/schema_relation.png)
           Schema Relation
