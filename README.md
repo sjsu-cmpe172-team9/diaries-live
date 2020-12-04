@@ -16,19 +16,20 @@ Our project is designed to keep live online diary entries in a more user friendl
 
 - Folder structure as above
 - Instructions on how to run the project locally.
+
+  + Run by Docker:
+     1. Pull command: docker pull kaylertran/diary-web-app:five
+     2. Run command: docker run -p 3000:3000 kaylertran/diary-web-app:five
+     3. Open browser and inser URL 'localhost:3000'
+  
+  + Run by NodeJS
+     1. git clone https://github.com/sjsu-cmpe172-team9/diaries-live.git
+     2. cd diaries-live
+     3. npm install
+     4. npm start
+     5. Open browser and inser URL 'localhost:3000'
+
+
 - System Diagram, Class/Sequence/Db Schema from project Report
 
-create dockerfile
 
-FROM node:latest
-WORKDIR /urs/src/app
-COPY package\*.json ./
-RUN npm install
-RUN npm install --save-dev cross-env
-COPY . .
-EXPOSE 3000
-CMD ["npm","start"]
-
-docker build -t name .
-
-docker run -p 3000:3000 name
