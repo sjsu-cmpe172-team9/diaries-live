@@ -65,6 +65,7 @@ and finally there is a side bar menu in which users are able to nagvigate throug
 
 ![](images/sequence_login.png)
 ![](images/sequence_dashboard.png)
+          Sequence Diagram for Login                      Sequence Diagram for Dashboard
 
 -Interaction
 
@@ -73,5 +74,7 @@ and finally there is a side bar menu in which users are able to nagvigate throug
 -Database Schema
 
 ![](images/schema_relation.png)
-![](images/schema_storyUser.png)
+          Schema Relation
 
+![](images/schema_storyUser.png)
+          Story Schema          User Schema
